@@ -33,5 +33,23 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: "bold",
         textAlign: "center",
+    },
+    image:{
+        width: "90%",
+        height: 200,
+        alignSelf: "center",
+        resizeMode: "contain",
+        marginBottom: 10,
+    },
+    priceLabelContainer:{
+        flexDirection: "row",
+        justifyContent: "space-around",
+        paddingBottom: 10,
+        alignItems: 'center',
+        marginTop: 10,
+    },
+    priceLabel:{
+        color: '#fff',
+        fontSize: 22,
     }
 })
