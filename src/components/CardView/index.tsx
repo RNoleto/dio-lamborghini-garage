@@ -44,7 +44,7 @@ export default function CardView(){
             <Button title="<" color={"#01A6B3"} onPress={()=> handlerPreviusItem(carData, setCarData)}/>
             <Text style={styles.priceLabel}>{carData?.price}</Text>
             <Button title=">" color={"#01A6B3"} onPress={()=>handlerNextItem(carData, setCarData)}/>
-        </View>
+         </View>
     )
 
     
