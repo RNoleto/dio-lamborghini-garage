@@ -18,6 +18,6 @@ export const handlerPreviusItem = async() => {
 
 };
 
-export const handleNextItem = async() => {
+export const handlerNextItem = async() => {
 
 };
